@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {} from 'react';
 import Navbar from './components/Navbar';
 import QuestionList from './components/QuestionList';
 import data from './data';
