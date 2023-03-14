@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 const Navbar = () => {
     return (
         <nav className='nav-title center'>
-            <h4>FAQ</h4>
+            <h4 className='faq'>FAQ</h4>
         </nav>
     )
 }

@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
+import Question from './Question'
 
-const QuestionList = () => {
+const QuestionList = ({questions}) => {
     return (
-        <section>
-            
-        </section>
+        <article className='container'>
+            {questions.map((question) => {
+                return (
+                <Question key={question.id} {...question}>
+                </Question>
+                );
+            })}
+        </article>
     )
 
 }

@@ -1,13 +1,14 @@
 import React, {useState} from 'react';
 import Navbar from './components/Navbar';
 import QuestionList from './components/QuestionList';
+import data from './data';
 
 function App() {
 
     return (
         <main>
             <Navbar />
-            <QuestionList />
+            <QuestionList questions={data}/>
         </main>
     )
 }
